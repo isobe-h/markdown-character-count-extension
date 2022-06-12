@@ -1,6 +1,6 @@
 {
 	"name": "mdcharacount",
-	"displayName": "markdown-character-count",
+	"displayName": "Markdown Character Count",
 	"publisher": "isobe-h",
 	"description": "Count the number of characters in the active file, excluding markdown syntax",
 	"version": "1.0.2",
