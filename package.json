@@ -1,9 +1,19 @@
 {
-	"name": "markdowncharactercount",
+	"name": "mdcharacount",
 	"displayName": "markdown-character-count",
 	"publisher": "isobe-h",
 	"description": "Count the number of characters in the active file, excluding markdown syntax",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"repository": {
+		"url": "https://github.com/isobe-h/markdown-character-count-extension"
+	},
+	"keywords": [
+		"markdown",
+		"character",
+		"counter"
+	],
+	"author": "isobe-h",
+	"license": "MIT",
 	"engines": {
 		"vscode": "^1.66.0"
 	},
@@ -59,12 +69,5 @@
 		"vsce": "2.9.1",
 		"webpack": "^5.70.0",
 		"webpack-cli": "^4.9.2"
-	},
-	"keywords": [
-		"markdown",
-		"character",
-		"counter"
-	],
-	"author": "isobe-h",
-	"license": "MIT"
+	}
 }
