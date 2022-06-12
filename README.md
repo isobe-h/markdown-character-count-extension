@@ -6,7 +6,7 @@
 
 This VS Code extension shows number of characters exclude Markdown syntaxes for web writing.
 
-![gif](./images/markdown%20character%20count.gif)
+![gif](./images/demo.gif)
 
 Shows number of active file characters on statusbar after installing.
 
