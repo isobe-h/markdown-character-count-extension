@@ -1,10 +1,9 @@
 
 ![license](https://img.shields.io/github/license/isobe-h/markdown-character-count-extension?style=for-the-badge)
-![CI](https://github.com/github/docs/actions/workflows/ci.yml/badge.svg)
 
 # Markdown character count
 
-This VS Code extension shows number of characters exclude Markdown syntaxes for web writing.
+This VS Code extension shows number of characters exclude Markdown syntaxes for writing.
 
 ![gif](./images/demo.gif)
 
@@ -12,17 +11,15 @@ Shows number of active file characters on statusbar after installing.
 
 ## Features
 
-- :sparkles: Display number of characters in the active file to StatusBar.
-- :sparkles: Count characters excluding Markdown syntax.
-- :sparkles: Supports non-Markdown file.  
+- Display number of characters in the active file to StatusBar.
+- Count characters excluding Markdown syntax.
+- Supports non-Markdown file.  
 
 ## Installation
 
 `code --install-extension  isobe-h.markdown-character-count`
 
-## Exclude Markdown Syntaxes
-
-This extension exclude following Markdown syntaxes.
+## Exclude Following Markdown Syntaxes
 
 - table
 - image
@@ -39,7 +36,7 @@ This extension exclude following Markdown syntaxes.
 
 ## Example
 
-This extension counts the following Markdown text as 17 characters.
+Counts the following Markdown text as 17 characters.
 
 ```
 # header1
@@ -48,6 +45,22 @@ This extension counts the following Markdown text as 17 characters.
 - second
 
 ```
+
+Counts as 0 characters.
+
+```
+
+![](hoge.png)
+
+Column A | Column B | Column C
+---------|----------|---------
+ A1 | B1 | C1
+ A2 | B2 | C2
+ A3 | B3 | C3
+
+```
+
+
 
 ## Options
 
