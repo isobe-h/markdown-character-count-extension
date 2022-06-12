@@ -21,18 +21,20 @@ Shows number of active file characters on statusbar after installing.
 
 ## Exclude Following Markdown Syntaxes
 
-- table
-- image
-- number list
+- bold
 - checked list
-- list
+- citation
 - code block
-- strikethrough
+- header
+- hyperlink
+- image
+- inline code
 - italic
-- link
+- list
+- number list
 - parentheses
-- enter
-- misc(*,>,#,`,_)
+- strikethrough
+- table
 
 ## Example
 
