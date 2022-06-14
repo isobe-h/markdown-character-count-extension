@@ -7,7 +7,7 @@ This VS Code extension shows number of characters exclude Markdown syntaxes for 
 
 ![gif](./images/demo.gif)
 
-Shows number of active file characters on statusbar after installing.
+Display number of active file characters on statusbar after installing.
 
 ## Features
 
@@ -62,16 +62,14 @@ Column A | Column B | Column C
 
 ```
 
-
-
 ## Options
 
 ### `Count markdown syntaxes as character`
 
-Display number of characters other than Markdown
+Exclude markdown syntaxes(e.g. '# hoge' count as 4 characters
 default: false
 
-### `Show other than Markdown`
+### `Display character counts for non-Markdown files`
 
-Exclude markdown syntaxes(e.g. '# hoge' count as 4 characters
+Display character counts other than Markdown
 default: true
