@@ -31,8 +31,8 @@ export function getNumberOfCharacters(editor?: TextEditor): number {
 		return 0;
 	}
 	const excludeMdSyntax = workspace
-		.getConfiguration("markdown character count")
-		.get<boolean>("Count markdown syntaxes as character");
+		.getConfiguration("markdownCharaCount")
+		.get<boolean>("countMarkdownSyntaxesAsCharacter");
 	const text = editor.document.getText();
 	if (editor.document.languageId === "markdown" && excludeMdSyntax) {
 		return countCharactersExcludeMarkdownSyntax(text);

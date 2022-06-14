@@ -24,11 +24,11 @@ export function activate({ subscriptions }: ExtensionContext) {
 }
 
 function updateStatusBarItem(): void {
-	const showOther = workspace
-		.getConfiguration("markdown character count")
-		.get<boolean>("Show other than Markdown");
+	const displayNonMarkdown = workspace
+		.getConfiguration("markdownCharaCount")
+		.get<boolean>("displayForNonMarkdown");
 	const editor = window.activeTextEditor;
-	if (!editor || (!showOther && editor.document.languageId !== "markdown")) {
+	if (!editor || (!displayNonMarkdown && editor.document.languageId !== "markdown")) {
 		myStatusBarItem.hide();
 		return;
 	}

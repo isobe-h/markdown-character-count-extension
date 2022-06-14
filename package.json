@@ -1,16 +1,15 @@
 {
-	"name": "mdcharacount",
+	"name": "markdown-character-count",
 	"displayName": "Markdown Character Count",
 	"publisher": "isobe-h",
-	"description": "Count the number of characters in the active file, excluding markdown syntax",
-	"version": "1.0.3",
+	"description": "Display the number of characters in the active file, excluding markdown syntax",
+	"version": "1.0.4",
 	"repository": {
 		"url": "https://github.com/isobe-h/markdown-character-count-extension"
 	},
 	"keywords": [
 		"markdown",
-		"character",
-		"counter"
+		"character count"
 	],
 	"author": "isobe-h",
 	"license": "MIT",
@@ -27,12 +26,12 @@
 		"configuration": {
 			"title": "Markdown Character Count",
 			"properties": {
-				"markdown character count.Show other than Markdown": {
+				"markdownCharaCount.displayForNonMarkdown": {
 					"type": "boolean",
-					"description": "Display number of characters other than Markdown",
+					"description": "Display character counts for non-Markdown file",
 					"default": "true"
 				},
-				"markdown character count.Count markdown syntaxes as character": {
+				"markdownCharaCount.countMarkdownSyntaxesAsCharacter": {
 					"type": "boolean",
 					"description": "Exclude markdown syntaxes(e.g. '# hoge' count as 4 characters)",
 					"default": "false"
