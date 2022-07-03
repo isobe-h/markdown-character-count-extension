@@ -23,23 +23,22 @@ Display number of active file characters on statusbar after installing.
 
 - bold
 - checked list
-- citation
-- code block
 - header
 - hyperlink
-- image
 - inline code
 - italic
 - list
 - number list
 - parentheses
 - strikethrough
-- table
+- image(Count as 0)
+- code block(Count as 0)
+- citation(Count as 0)
+- table(Count as 0)
 
 ## Example
 
-Counts the following Markdown text as 17 characters.
-
+### 17 characters
 ```
 # header1
 
@@ -48,10 +47,8 @@ Counts the following Markdown text as 17 characters.
 
 ```
 
-Counts as 0 characters.
-
+### 0 characters.
 ```
-
 ![](hoge.png)
 
 Column A | Column B | Column C
@@ -59,6 +56,21 @@ Column A | Column B | Column C
  A1 | B1 | C1
  A2 | B2 | C2
  A3 | B3 | C3
+
+```
+
+``` 
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+```
+
+```
+const sum = (a,b) => {
+	return a + b;
+}
 
 ```
 
