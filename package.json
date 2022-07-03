@@ -3,7 +3,7 @@
 	"displayName": "Markdown Character Count",
 	"publisher": "isobe-h",
 	"description": "Display the number of characters in the active file, excluding markdown syntax",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"repository": {
 		"url": "https://github.com/isobe-h/markdown-character-count-extension"
 	},
