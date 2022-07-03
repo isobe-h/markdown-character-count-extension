@@ -51,9 +51,14 @@ const markdownSyntaxes: MarkdownTestCases[] = [
 	{ text: "**bold**", syntaxExcludedLength: 4, length: 8 },
 	{ text: "~~strikethrough~~", syntaxExcludedLength: 13, length: 17 },
 	{
-		text: "> Done is better than perfect.",
-		syntaxExcludedLength: 28,
-		length: 30,
+		text: `
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua.
+
+`,
+		syntaxExcludedLength: 0,
+		length: 125,
 	},
 	{ text: "`console.log('error')`", syntaxExcludedLength: 20, length: 22 },
 	{

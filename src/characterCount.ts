@@ -6,9 +6,10 @@ const markdownSyntaxes = {
 	numberList: /[0-9]. /g,
 	checkedList: /- \[(.*| )] +/g,
 	list: /[-\*] +/g,
+	citation: /> [\s\S]*?(^(\r\n|\n|\r)$)/gm,
 	codeBlock: /```.*```/g,
 	strikethrough: /~~/g,
-	misc: /[*>#`_]{1,} */g, // bold, citation, italic, header, inline code
+	misc: /[*#`_]{1,} */g, // bold, italic, header, inline code
 	link: /\](.*)/g,
 	parenthesesBegin: /\[/g,
 	enter: /(\r\n|\r|\n)/g,
