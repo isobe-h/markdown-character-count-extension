@@ -78,10 +78,10 @@ const sum = (a,b) => {
 
 ### `Count markdown syntaxes as character`
 
-Exclude markdown syntaxes(e.g. '# hoge' count as 4 characters
+Count markdown syntaxes(e.g. '# hoge' count as 6 characters
 default: false
 
 ### `Display character counts for non-Markdown files`
 
 Display character counts other than Markdown
-default: true
+default: false
