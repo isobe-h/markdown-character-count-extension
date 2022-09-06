@@ -29,11 +29,11 @@
 				"markdownCharaCount.displayForNonMarkdown": {
 					"type": "boolean",
 					"description": "Display character counts for non-Markdown file",
-					"default": "true"
+					"default": "false"
 				},
 				"markdownCharaCount.countMarkdownSyntaxesAsCharacter": {
 					"type": "boolean",
-					"description": "Exclude markdown syntaxes(e.g. '# hoge' count as 4 characters)",
+					"description": "Count markdown syntaxes(e.g. '# hoge' count as 6 characters)",
 					"default": "false"
 				}
 			}
